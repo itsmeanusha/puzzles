@@ -1,0 +1,9 @@
+//string reveral:
+//2. 
+let str="chop this now";
+let newstr="";
+for(let i=str.length;i>0;i--){
+    let chop=str.substr(i,1);
+    newstr+=chop;
+}
+console.log(newstr);
