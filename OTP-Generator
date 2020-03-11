@@ -1,0 +1,21 @@
+//otp:
+var num="";
+let alhp=['a','b','c','d','e','f','g','h','i','j','k'];
+//loop for 10 times
+for( i=0;i<10;i++){
+  //generate random alpha umberic
+let a=(Math.random()*10);
+
+a=Math.round(a);
+
+let c=(Math.random()*10);
+
+c=Math.round(c);
+let b=alhp[c]
+
+
+num+=a+b;
+
+
+}
+console.log(num);
