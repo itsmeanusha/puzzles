@@ -1,0 +1,13 @@
+//string reversal
+
+let str="reverse this string right now";
+// convert to array 
+let arr=str.split(" ");
+let newarr=[];
+let j=arr.length-1;
+for(let i=0;i<arr.length;i++){
+  newarr[j]=arr[i];
+  j=j-1;
+}
+str=newarr.join(" ");
+console.log(str);
